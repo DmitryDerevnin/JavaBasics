@@ -1,7 +1,6 @@
-package mypackage;
+package level_one;
 
 public class Warmup {
-
     public String backAround(String str) {
         char lastChar = str.charAt(str.length()-1);
         String newString = lastChar + str + lastChar;

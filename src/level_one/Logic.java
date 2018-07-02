@@ -1,7 +1,6 @@
-package mypackage;
+package level_one;
 
 public class Logic {
-
     public boolean answerCell(boolean isMorning, boolean isMom, boolean isAsleep) {
         if(isMorning) {
             if (!isMom | isAsleep)

@@ -1,9 +1,9 @@
-package mypackage;
+package level_two;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class Functional {
-
     public List<Integer> noNeg(List<Integer> nums) {
         List<Integer> outString = new ArrayList<Integer>();
         for(int i = 0; i<nums.size(); i++){
